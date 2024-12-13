@@ -7,6 +7,8 @@ public class Person {
         this.Name = Name;
         this.age = age;
         this.job = job;
+
+        System.out.println("Ім'я: "+Name+", Вік: "+age+", Професія: "+job);
     }
 
     public String getName() {
@@ -27,6 +29,8 @@ public class Person {
     }
     public void setJob(String job){
         this.job = job;
+
+        System.out.println("\nІм'я: "+Name+", Вік: "+age+", Професія: "+job);
     }
 
 }
